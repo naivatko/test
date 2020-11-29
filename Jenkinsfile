@@ -1,6 +1,6 @@
 node {
-    stage('Build') {
-		ws("D:/Projects/Latihan/openshift/test") {
+    ws("D:/Projects/Latihan/openshift/test") {
+        stage('Build') {
 			withMaven {
 				bat "mvn clean package"
 			}
