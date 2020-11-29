@@ -1,0 +1,2 @@
+#!/bin/sh
+curl http://localhost:8001/git/notifyCommit?url=file:///D:/Projects/Latihan/openshift/test
