@@ -1,7 +1,7 @@
 node {
     stage('Build') {
         withMaven {
-            sh "mvn clean package"
+            bat "mvn clean package"
         }
     }
 }
